@@ -14,5 +14,13 @@ subtraction() {
 	echo `expr 1 - 2`
 }
 
+# Multiplication Feature
+
+multiplication() {
+  echo -n "Multiplication: "
+  echo `expr 2 / 1`
+}
+
 addition
 subtraction
+multiplication
